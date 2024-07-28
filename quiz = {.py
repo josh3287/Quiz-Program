@@ -1,6 +1,6 @@
 quiz = {
     "question_1": {
-        "question": "What is the year the camera was invented?",
+        "question": "What year was the camera invented?",
         "answer": "1989"
 
     },
@@ -46,7 +46,7 @@ for key, value in quiz.items():
     if answer.lower() == value ["answer"].lower():
         print('Correct')
         score = score + 1
-        print("Score: " + score)
+        print("Score: " + str(score))
     else:
         print("Wrong!")
         print("The answer is: " + value ["answer"])
